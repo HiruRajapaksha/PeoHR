@@ -97,7 +97,7 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="btn-primary text-base px-7 py-3.5">
+              <Link href="/contact" className="inline-flex items-center gap-2 text-base px-7 py-3.5 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] hover:border-accent/40 transition-all duration-300 shadow-lg hover:shadow-accent/10 hover:scale-105 active:scale-95">
                 <Calendar size={18} />
                 Schedule a Consultation
               </Link>

@@ -36,7 +36,7 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-primary/95 backdrop-blur-xl shadow-2xl shadow-black/30 border-b border-white/5"
+          ? "bg-primary/95 backdrop-blur-xl shadow-2xl shadow-black/30"
           : "bg-transparent"
       }`}
     >
@@ -112,7 +112,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/contact"
-              className="btn-primary text-sm px-5 py-2.5"
+              className="inline-flex items-center gap-2 text-sm px-5 py-2.5 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] hover:border-accent/40 transition-all duration-300 shadow-lg hover:shadow-accent/10 hover:scale-105 active:scale-95"
             >
               <Calendar size={14} />
               Book a Consultation
@@ -166,7 +166,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="btn-primary w-full justify-center"
+              className="inline-flex items-center justify-center gap-2 w-full px-6 py-3 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] transition-all duration-300"
             >
               Book a Consultation
             </Link>
