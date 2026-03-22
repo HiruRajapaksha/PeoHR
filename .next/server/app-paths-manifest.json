@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/services/virtual-hr/page": "app/services/virtual-hr/page.js",
+  "/services/payroll/page": "app/services/payroll/page.js",
+  "/services/page": "app/services/page.js",
+  "/about/page": "app/about/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/contact/page": "app/contact/page.js"
+}
