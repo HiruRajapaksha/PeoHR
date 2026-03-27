@@ -26,7 +26,7 @@ const benefits = [
 
 export default function HROutsourcingPage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-primary-dark">
       <section className="relative pt-40 pb-16 overflow-hidden">
         <div className="absolute inset-0 mesh-gradient opacity-60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

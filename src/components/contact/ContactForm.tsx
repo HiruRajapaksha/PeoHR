@@ -106,11 +106,11 @@ export default function ContactForm() {
         </label>
         <select
           required
-          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:outline-none focus:border-accent/50 transition-all duration-200 appearance-none"
+          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:outline-none focus:border-primary/50 transition-all duration-200 appearance-none"
         >
-          <option value="" className="bg-primary">Select company size</option>
+          <option value="" className="bg-primary-dark">Select company size</option>
           {employeeOptions.map((opt) => (
-            <option key={opt} value={opt} className="bg-primary">
+            <option key={opt} value={opt} className="bg-primary-dark">
               {opt}
             </option>
           ))}
@@ -123,11 +123,11 @@ export default function ContactForm() {
         </label>
         <select
           required
-          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:outline-none focus:border-accent/50 transition-all duration-200 appearance-none"
+          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:outline-none focus:border-primary/50 transition-all duration-200 appearance-none"
         >
-          <option value="" className="bg-primary">Select your main challenge</option>
+          <option value="" className="bg-primary-dark">Select your main challenge</option>
           {challengeOptions.map((opt) => (
-            <option key={opt} value={opt} className="bg-primary">
+            <option key={opt} value={opt} className="bg-primary-dark">
               {opt}
             </option>
           ))}

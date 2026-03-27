@@ -9,22 +9,27 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#0A2540',
-          dark: '#061828',
-          light: '#0D3460',
+          DEFAULT: '#88A646', // PeoHR Green
+          dark: '#1A1C1B',    // Premium Charcoal
+          light: '#A3BC71',   // Lighter Green
+        },
+        secondary: {
+          DEFAULT: '#654D65', // PeoHR Purple
+          light: '#826A82',
+          dark: '#4D3A4D',
         },
         accent: {
-          DEFAULT: '#00B4D8',
-          light: '#48CAE4',
-          dark: '#0096B7',
+          DEFAULT: '#88A646',
+          light: '#A3BC71',
+          dark: '#6D8538',
         },
-        gold: {
-          DEFAULT: '#D4AF37',
-          light: '#F0D060',
-          dark: '#B8960A',
+        neutral: {
+          DEFAULT: '#B4B6B5', // PeoHR Grey
+          light: '#D1D3D2',
+          dark: '#8E908F',
         },
-        surface: '#0D1B2A',
-        muted: '#64748B',
+        surface: '#1A1C1B',
+        muted: '#B4B6B5',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],

@@ -1,14 +1,11 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/services/compliance/page": "app/services/compliance/page.js",
-  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
   "/about/page": "app/about/page.js",
+  "/resources/page": "app/resources/page.js",
+  "/contact/page": "app/contact/page.js",
   "/services/hr-outsourcing/page": "app/services/hr-outsourcing/page.js",
   "/services/payroll/page": "app/services/payroll/page.js",
-  "/page": "app/page.js",
-  "/resources/page": "app/resources/page.js",
-  "/services/page": "app/services/page.js",
-  "/services/training/page": "app/services/training/page.js",
+  "/services/virtual-hr/page": "app/services/virtual-hr/page.js",
   "/services/policy/page": "app/services/policy/page.js",
-  "/services/virtual-hr/page": "app/services/virtual-hr/page.js"
+  "/services/training/page": "app/services/training/page.js"
 }

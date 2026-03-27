@@ -17,7 +17,7 @@ const differentiators = [
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-primary-dark text-white">
       {/* Page Hero */}
       <section className="relative pt-40 pb-24 overflow-hidden">
         <div className="absolute inset-0 mesh-gradient opacity-60" />
@@ -109,24 +109,24 @@ export default function AboutPage() {
                 title: "Our Mission",
                 content:
                   "To help growing organizations build structured, compliant, well-engaged and high-performing people systems by delivering operational excellence and strategic workforce solutions that drive sustainable growth.",
-                color: "text-accent",
-                bg: "bg-accent/10",
+                color: "text-primary",
+                bg: "bg-primary/10",
               },
               {
                 icon: Eye,
                 title: "Our Vision",
                 content:
                   "To be the most trusted HR partner for SMEs in Sri Lanka — enabling businesses to build strong, productive workplaces through expert HR systems and people-first strategies.",
-                color: "text-gold",
-                bg: "bg-gold/10",
+                color: "text-secondary-light",
+                bg: "bg-secondary/10",
               },
               {
                 icon: Lightbulb,
                 title: "Our Approach",
                 content:
                   "Practical, tailored HR solutions built for real business challenges. We combine deep expertise with a hands-on approach to deliver results that matter — not just advice.",
-                color: "text-purple-400",
-                bg: "bg-purple-500/10",
+                color: "text-primary-light",
+                bg: "bg-primary/10",
               },
             ].map(({ icon: Icon, title, content, color, bg }) => (
               <div key={title} className="glass-card p-7 hover:border-white/15 border border-white/5 transition-all duration-300">

@@ -5,11 +5,11 @@ export default function CTASection() {
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 animated-gradient-bg opacity-80" />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/30 to-primary" />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary-dark/80 to-primary-dark" />
 
       {/* Decorative orbs */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gold/15 rounded-full blur-3xl" />
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-secondary/15 rounded-full blur-3xl" />
 
       <div className="relative max-w-4xl mx-auto px-4 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 border border-white/20 rounded-full mb-6">

@@ -9,29 +9,29 @@ const targets = [
     icon: Building2,
     title: "Small & Medium Enterprises",
     description: "Structured HR support tailored to SME scale and budget.",
-    color: "text-accent",
-    bg: "bg-accent/10",
+    color: "text-primary",
+    bg: "bg-primary/10",
   },
   {
     icon: Sprout,
     title: "Startups & Growing Companies",
     description: "Build your HR foundation right from the beginning.",
-    color: "text-green-400",
-    bg: "bg-green-500/10",
+    color: "text-secondary-light",
+    bg: "bg-secondary/10",
   },
   {
     icon: UserX,
     title: "Companies Without HR Teams",
     description: "Get professional HR management without hiring a full team.",
-    color: "text-purple-400",
-    bg: "bg-purple-500/10",
+    color: "text-primary-light",
+    bg: "bg-primary/10",
   },
   {
     icon: Settings,
     title: "Businesses Needing HR Systems",
     description: "Transform ad-hoc HR practices into structured, compliant systems.",
-    color: "text-gold",
-    bg: "bg-gold/10",
+    color: "text-secondary",
+    bg: "bg-secondary/10",
   },
 ];
 
@@ -62,19 +62,19 @@ export default function WhoWeWorkWith() {
     <section className="py-24 relative overflow-hidden bg-primary-dark">
       <div className="absolute top-0 inset-x-0 divider-gradient" />
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/2 right-0 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left text */}
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 border border-gold/20 rounded-full mb-6">
-              <span className="text-gold text-sm font-medium">Who We Serve</span>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full mb-6">
+              <span className="text-primary text-sm font-medium">Who We Serve</span>
             </div>
             <h2 className="font-heading font-bold text-4xl lg:text-5xl text-white mb-6 leading-tight">
               Built for{" "}
-              <span className="gold-text">Growing Businesses</span>
+              <span className="gradient-text">Growing Businesses</span>
             </h2>
             <p className="text-white/60 leading-relaxed mb-8">
               PeoHR Solutions is purpose-built to support organizations that need professional

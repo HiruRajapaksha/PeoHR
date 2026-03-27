@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ChevronDown, Phone, Calendar } from "lucide-react";
 
 const services = [
@@ -36,20 +37,22 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-primary/95 backdrop-blur-xl shadow-2xl shadow-black/30"
+          ? "bg-primary-dark/95 backdrop-blur-xl shadow-2xl shadow-black/40"
           : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex flex-col group">
-            <span className="font-heading font-bold text-2xl text-white tracking-tight group-hover:text-accent transition-colors duration-300">
-              Peo<span className="text-accent">HR</span>
-            </span>
-            <span className="text-[10px] text-white/50 tracking-widest uppercase font-medium leading-tight">
-              Architecting HR for Growth
-            </span>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/images/Group 76.svg"
+              alt="PeoHR Logo"
+              width={160}
+              height={35}
+              className="h-9 w-auto brightness-0 invert"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -112,7 +115,7 @@ export default function Navbar() {
             </a>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 text-sm px-5 py-2.5 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] hover:border-accent/40 transition-all duration-300 shadow-lg hover:shadow-accent/10 hover:scale-105 active:scale-95"
+              className="inline-flex items-center gap-2 text-sm px-5 py-2.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full border border-white/10 hover:border-white/20 transition-all duration-300 shadow-lg hover:shadow-primary/10 hover:scale-105 active:scale-95"
             >
               <Calendar size={14} />
               Book a Consultation
@@ -166,7 +169,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="inline-flex items-center justify-center gap-2 w-full px-6 py-3 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 w-full px-6 py-3 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full border border-white/10 transition-all duration-300 shadow-lg hover:shadow-primary/10"
             >
               Book a Consultation
             </Link>

@@ -1,112 +1,55 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/app/_not-found/page-8a6e1ceb327895bf.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/css/7bc5f163bc158a47.css",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/layout-ad533ee2ebd2fa9c.js"
-    ],
-    "/services/compliance/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/services/compliance/page-30fefd20c838285c.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/app/contact/page-33a0134cd9fb1cb2.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/about/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/878-dcb6c40db4685857.js",
-      "static/chunks/app/about/page-1ad310fe211cda71.js"
-    ],
-    "/services/hr-outsourcing/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/services/hr-outsourcing/page-d6e735ef5d6dc5ef.js"
-    ],
-    "/services/payroll/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/services/payroll/page-cde18807d0dec219.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/878-dcb6c40db4685857.js",
-      "static/chunks/91-361b430acb2ec606.js",
-      "static/chunks/app/page-65d2f36845a59b17.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about/page.js"
     ],
     "/resources/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/resources/page-d89d518c739438a8.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/resources/page.js"
     ],
-    "/services/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/878-dcb6c40db4685857.js",
-      "static/chunks/app/services/page-3e54ffa7991c1b42.js"
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contact/page.js"
     ],
-    "/services/training/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/services/training/page-a0d1afd85f088b24.js"
+    "/services/hr-outsourcing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/hr-outsourcing/page.js"
     ],
-    "/services/policy/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/app/services/policy/page-8b4c25151a81e42c.js"
+    "/services/payroll/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/payroll/page.js"
     ],
     "/services/virtual-hr/page": [
-      "static/chunks/webpack-616e068a201ad621.js",
-      "static/chunks/fd9d1056-0807e69ea9c303ac.js",
-      "static/chunks/117-977fcf1940ffb343.js",
-      "static/chunks/main-app-543c68b1e40dfdac.js",
-      "static/chunks/972-66fe8c15ab2ed532.js",
-      "static/chunks/878-dcb6c40db4685857.js",
-      "static/chunks/app/services/virtual-hr/page-cfe820a6c61cc227.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/virtual-hr/page.js"
+    ],
+    "/services/policy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/policy/page.js"
+    ],
+    "/services/training/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/services/training/page.js"
     ]
   }
 }

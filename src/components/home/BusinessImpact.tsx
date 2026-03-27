@@ -5,11 +5,11 @@ import { TrendingUp, UserCheck, Shield, Layers, Heart, ArrowRight } from "lucide
 import Link from "next/link";
 
 const outcomes = [
-  { icon: TrendingUp, text: "Improved employee productivity", color: "text-accent" },
-  { icon: UserCheck, text: "Better employee engagement", color: "text-purple-400" },
-  { icon: Shield, text: "Reduced HR-related operational risks", color: "text-green-400" },
-  { icon: Layers, text: "Structured HR processes", color: "text-gold" },
-  { icon: Heart, text: "Stronger organizational culture", color: "text-pink-400" },
+  { icon: TrendingUp, text: "Improved employee productivity", color: "text-primary" },
+  { icon: UserCheck, text: "Better employee engagement", color: "text-secondary-light" },
+  { icon: Shield, text: "Reduced HR-related operational risks", color: "text-primary-light" },
+  { icon: Layers, text: "Structured HR processes", color: "text-secondary" },
+  { icon: Heart, text: "Stronger organizational culture", color: "text-primary" },
 ];
 
 const stats = [
@@ -80,7 +80,7 @@ export default function BusinessImpact() {
   }, []);
 
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section className="py-24 relative overflow-hidden bg-primary-dark">
       <div className="absolute inset-0 mesh-gradient opacity-40" />
       <div className="absolute top-0 inset-x-0 divider-gradient" />
 

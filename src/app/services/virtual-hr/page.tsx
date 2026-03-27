@@ -23,21 +23,21 @@ const supports = [
 
 export default function VirtualHRPage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-primary-dark">
       {/* Hero */}
       <section className="relative pt-40 pb-20 overflow-hidden">
         <div className="absolute inset-0 mesh-gradient opacity-60" />
-        <div className="absolute right-0 top-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl" />
+        <div className="absolute right-0 top-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-purple-500/10 border border-purple-500/20 rounded-full mb-6">
-                <span className="text-purple-400 text-sm font-medium">Virtual HR Assistant</span>
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full mb-6">
+                <span className="text-primary text-sm font-medium">Virtual HR Assistant</span>
               </div>
               <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-6 leading-tight">
                 Your HR Department —{" "}
-                <span className="bg-gradient-to-r from-purple-400 to-accent bg-clip-text text-transparent">
+                <span className="gradient-text">
                   Without Hiring One
                 </span>
               </h1>
@@ -61,7 +61,7 @@ export default function VirtualHRPage() {
                   height={500}
                   className="object-cover w-full"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/40 to-transparent" />
               </div>
             </div>
           </div>
@@ -84,9 +84,9 @@ export default function VirtualHRPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mb-16">
             {supports.map(({ icon: Icon, text }) => (
-              <div key={text} className="glass-card p-6 flex items-center gap-4 hover:border-purple-500/20 border border-white/5 transition-all duration-300 group">
-                <div className="w-10 h-10 rounded-xl bg-purple-500/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
-                  <Icon size={18} className="text-purple-400" />
+              <div key={text} className="glass-card p-6 flex items-center gap-4 hover:border-primary/20 border border-white/5 transition-all duration-300 group">
+                <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+                  <Icon size={18} className="text-primary" />
                 </div>
                 <span className="text-white/75 text-sm font-medium">{text}</span>
               </div>
@@ -94,7 +94,7 @@ export default function VirtualHRPage() {
           </div>
 
           {/* CTA */}
-          <div className="glass-card p-10 text-center border border-purple-500/20">
+          <div className="glass-card p-10 text-center border border-primary/20">
             <h3 className="font-heading font-bold text-2xl text-white mb-4">
               Ready for on-demand HR support?
             </h3>

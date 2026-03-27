@@ -25,7 +25,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-primary text-white antialiased">
+      <body className="bg-primary-dark text-white antialiased text-balance">
         <Navbar />
         <main>{children}</main>
         <Footer />

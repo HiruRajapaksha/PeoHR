@@ -37,7 +37,7 @@ const contactDetails = [
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-primary-dark">
       {/* Hero */}
       <section className="relative pt-40 pb-16 overflow-hidden">
         <div className="absolute inset-0 mesh-gradient opacity-60" />
@@ -100,7 +100,7 @@ export default function ContactPage() {
               </div>
 
               {/* Quick services */}
-              <div className="glass-card p-5 border border-gold/15 mt-4">
+              <div className="glass-card p-5 border border-primary/15 mt-4">
                 <h3 className="font-semibold text-white text-sm mb-3">
                   Services You Might Need
                 </h3>
@@ -111,7 +111,7 @@ export default function ContactPage() {
                   "Compliance Advisory",
                 ].map((s) => (
                   <div key={s} className="flex items-center gap-2 py-1.5">
-                    <ArrowRight size={12} className="text-accent" />
+                    <ArrowRight size={12} className="text-secondary-light" />
                     <span className="text-white/60 text-xs">{s}</span>
                   </div>
                 ))}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, ArrowRight } from "lucide-react";
 
 const footerLinks = {
@@ -54,12 +55,13 @@ export default function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex flex-col mb-4">
-              <span className="font-heading font-bold text-2xl text-white tracking-tight">
-                Peo<span className="text-accent">HR</span>
-              </span>
-              <span className="text-[10px] text-white/40 tracking-widest uppercase font-medium">
-                Architecting HR for Growth
-              </span>
+              <Image
+                src="/images/Group 76.svg"
+                alt="PeoHR Logo"
+                width={140}
+                height={30}
+                className="h-8 w-auto brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
+              />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
               Practical HR Solutions for Growing Businesses.

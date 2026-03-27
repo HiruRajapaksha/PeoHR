@@ -45,7 +45,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 pointer-events-none transition-all duration-1000"
         style={{
-          background: `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(0, 180, 216, 0.08), transparent 50%)`,
+          background: `radial-gradient(600px circle at ${mousePos.x}% ${mousePos.y}%, rgba(136, 166, 70, 0.05), transparent 50%)`,
         }}
       />
 
@@ -55,15 +55,15 @@ export default function HeroSection() {
           src="/images/hero-bg.png"
           alt="HR Professionals at Work"
           fill
-          className="object-cover opacity-20"
+          className="object-cover opacity-40 mix-blend-luminosity"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/50 to-primary" />
+        <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/40 via-primary-dark/70 to-primary-dark" />
       </div>
 
       {/* Animated orbs */}
-      <div className="absolute top-20 right-10 w-80 h-80 bg-accent/10 rounded-full blur-3xl animate-pulse-slow" />
-      <div className="absolute bottom-20 left-10 w-60 h-60 bg-gold/8 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
+      <div className="absolute top-20 right-10 w-80 h-80 bg-primary/10 rounded-full blur-3xl animate-pulse-slow" />
+      <div className="absolute bottom-20 left-10 w-60 h-60 bg-secondary/8 rounded-full blur-3xl animate-pulse-slow" style={{ animationDelay: "2s" }} />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
@@ -97,7 +97,7 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 text-base px-7 py-3.5 bg-[#0D3460] hover:bg-[#0A2540] text-white font-semibold rounded-full border border-[#1a4a80] hover:border-accent/40 transition-all duration-300 shadow-lg hover:shadow-accent/10 hover:scale-105 active:scale-95">
+              <Link href="/contact" className="inline-flex items-center gap-2 text-base px-7 py-3.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full border border-white/10 hover:border-primary/40 transition-all duration-300 shadow-lg hover:shadow-primary/10 hover:scale-105 active:scale-95">
                 <Calendar size={18} />
                 Schedule a Consultation
               </Link>
@@ -136,8 +136,8 @@ export default function HeroSection() {
 
             {/* Badge card */}
             <div className="glass-card p-4 w-64 flex items-center gap-3 card-hover animate-float" style={{ animationDelay: "3s" }}>
-              <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center shrink-0">
-                <Shield size={18} className="text-gold" />
+              <div className="w-10 h-10 rounded-full bg-secondary/20 flex items-center justify-center shrink-0">
+                <Shield size={18} className="text-secondary-light" />
               </div>
               <div>
                 <div className="text-white text-sm font-semibold">Labour Law Compliant</div>

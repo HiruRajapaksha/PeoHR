@@ -10,9 +10,9 @@ const steps = [
     title: "Understand",
     description:
       "We analyze your company's HR challenges, workforce structure, and compliance requirements.",
-    color: "text-accent",
-    bgColor: "bg-accent/10",
-    borderColor: "border-accent/30",
+    color: "text-primary",
+    bgColor: "bg-primary/10",
+    borderColor: "border-primary/30",
   },
   {
     number: "02",
@@ -20,9 +20,9 @@ const steps = [
     title: "Design",
     description:
       "We create HR systems, policies, and processes suited to your organization.",
-    color: "text-purple-400",
-    bgColor: "bg-purple-500/10",
-    borderColor: "border-purple-500/30",
+    color: "text-secondary-light",
+    bgColor: "bg-secondary/10",
+    borderColor: "border-secondary/30",
   },
   {
     number: "03",
@@ -30,9 +30,9 @@ const steps = [
     title: "Implement",
     description:
       "We implement the HR framework and support your team in adopting the new processes.",
-    color: "text-gold",
-    bgColor: "bg-gold/10",
-    borderColor: "border-gold/30",
+    color: "text-primary-light",
+    bgColor: "bg-primary/10",
+    borderColor: "border-primary/30",
   },
   {
     number: "04",
@@ -40,9 +40,9 @@ const steps = [
     title: "Support",
     description:
       "Continuous HR advisory support to ensure smooth operations and compliance.",
-    color: "text-green-400",
-    bgColor: "bg-green-500/10",
-    borderColor: "border-green-500/30",
+    color: "text-secondary",
+    bgColor: "bg-secondary/10",
+    borderColor: "border-secondary/30",
   },
 ];
 
@@ -73,20 +73,20 @@ export default function ProcessSection() {
   return (
     <section className="py-24 relative overflow-hidden bg-primary-dark">
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-1/4 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-gold/10 rounded-full blur-3xl" />
+        <div className="absolute top-0 left-1/4 w-64 h-64 bg-primary/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-secondary/10 rounded-full blur-3xl" />
       </div>
       <div className="absolute top-0 inset-x-0 divider-gradient" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 border border-gold/20 rounded-full mb-4">
-            <span className="text-gold text-sm font-medium">How It Works</span>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full mb-4">
+            <span className="text-primary text-sm font-medium">How It Works</span>
           </div>
           <h2 className="font-heading font-bold text-4xl lg:text-5xl text-white mb-4">
             Simple Process.{" "}
-            <span className="gold-text">Real Results.</span>
+            <span className="gradient-text">Real Results.</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Our proven 4-step framework delivers structured HR transformation for your

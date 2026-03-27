@@ -10,8 +10,8 @@
   }
   
   body {
-    @apply bg-primary text-white font-sans antialiased;
-    background-color: #0A2540;
+    @apply bg-primary-dark text-white font-sans antialiased;
+    background-color: #1A1C1B;
   }
 }
 
@@ -29,8 +29,8 @@
   }
   
   .btn-gold {
-    @apply inline-flex items-center gap-2 px-6 py-3 bg-gold text-primary font-bold rounded-full 
-           hover:bg-gold-light transition-all duration-300 shadow-lg hover:shadow-gold/30 
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-secondary text-white font-bold rounded-full 
+           hover:bg-secondary-light transition-all duration-300 shadow-lg hover:shadow-secondary/30 
            hover:scale-105 active:scale-95;
   }
   
@@ -47,7 +47,7 @@
   }
 
   .gold-text {
-    @apply bg-gradient-to-r from-gold to-gold-light bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-secondary to-secondary-light bg-clip-text text-transparent;
   }
 }
 
@@ -58,14 +58,14 @@
   
   .mesh-gradient {
     background:
-      radial-gradient(ellipse at 20% 30%, rgba(0, 180, 216, 0.15) 0%, transparent 60%),
-      radial-gradient(ellipse at 80% 70%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
-      radial-gradient(ellipse at 50% 50%, rgba(13, 52, 96, 0.6) 0%, transparent 70%),
-      #0A2540;
+      radial-gradient(ellipse at 20% 30%, rgba(136, 166, 70, 0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 70%, rgba(101, 77, 101, 0.08) 0%, transparent 60%),
+      radial-gradient(ellipse at 50% 50%, rgba(26, 28, 27, 0.6) 0%, transparent 70%),
+      #1A1C1B;
   }
 
   .hero-gradient {
-    background: linear-gradient(135deg, #061828 0%, #0A2540 40%, #0D3460 70%, #0A2540 100%);
+    background: linear-gradient(135deg, #1A1C1B 0%, #2A2D2C 40%, #1A1C1B 70%, #101110 100%);
   }
 
   .card-hover {
@@ -89,19 +89,19 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0A2540;
+  background: #1A1C1B;
 }
 ::-webkit-scrollbar-thumb {
-  background: #00B4D8;
+  background: #88A646;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #48CAE4;
+  background: #A3BC71;
 }
 
 /* Animated gradient background for hero */
 .animated-gradient-bg {
-  background: linear-gradient(-45deg, #061828, #0A2540, #0D3460, #08677e);
+  background: linear-gradient(-45deg, #101110, #1A1C1B, #2A2D2C, #654D65);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
 }
@@ -114,14 +114,14 @@
 
 /* Glow effects */
 .glow-accent {
-  box-shadow: 0 0 30px rgba(0, 180, 216, 0.3);
+  box-shadow: 0 0 30px rgba(136, 166, 70, 0.3);
 }
 .glow-gold {
-  box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+  box-shadow: 0 0 30px rgba(101, 77, 101, 0.3);
 }
 
 /* Divider gradient */
 .divider-gradient {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(0, 180, 216, 0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(136, 166, 70, 0.4), transparent);
 }

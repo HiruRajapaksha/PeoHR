@@ -15,7 +15,7 @@ const articles = [
     excerpt:
       "A comprehensive overview of key Labour Law requirements every employer in Sri Lanka should know.",
     readTime: "8 min read",
-    tagColor: "text-accent bg-accent/10",
+    tagColor: "text-primary bg-primary/10",
   },
   {
     tag: "Payroll",
@@ -23,7 +23,7 @@ const articles = [
     excerpt:
       "Statutory contributions explained — obligations, rates, and how to stay compliant with payroll regulations.",
     readTime: "6 min read",
-    tagColor: "text-green-400 bg-green-500/10",
+    tagColor: "text-secondary-light bg-secondary/10",
   },
   {
     tag: "Employee Management",
@@ -31,7 +31,7 @@ const articles = [
     excerpt:
       "A step-by-step guide to managing workplace grievances professionally and preventing escalation.",
     readTime: "5 min read",
-    tagColor: "text-purple-400 bg-purple-500/10",
+    tagColor: "text-primary-light bg-primary/10",
   },
   {
     tag: "Workplace Culture",
@@ -39,7 +39,7 @@ const articles = [
     excerpt:
       "Practical strategies for small businesses to improve employee engagement and productivity.",
     readTime: "7 min read",
-    tagColor: "text-gold bg-gold/10",
+    tagColor: "text-secondary bg-secondary/10",
   },
   {
     tag: "HR Best Practices",
@@ -47,7 +47,7 @@ const articles = [
     excerpt:
       "Common pitfalls in HR management for scaling companies and the steps to correct them before they cost you.",
     readTime: "9 min read",
-    tagColor: "text-orange-400 bg-orange-500/10",
+    tagColor: "text-primary bg-primary/10",
   },
   {
     tag: "Labour Law",
@@ -55,25 +55,25 @@ const articles = [
     excerpt:
       "What employers need to know about legal termination procedures to avoid costly disputes.",
     readTime: "10 min read",
-    tagColor: "text-pink-400 bg-pink-500/10",
+    tagColor: "text-secondary-light bg-secondary/10",
   },
 ];
 
 export default function ResourcesPage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-primary-dark">
       {/* Hero */}
       <section className="relative pt-40 pb-16 overflow-hidden">
         <div className="absolute inset-0 mesh-gradient opacity-60" />
-        <div className="absolute right-0 top-20 w-96 h-96 bg-gold/10 rounded-full blur-3xl" />
+        <div className="absolute right-0 top-20 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold/10 border border-gold/20 rounded-full mb-4">
-            <span className="text-gold text-sm font-medium">HR Insights</span>
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full mb-4">
+            <span className="text-primary text-sm font-medium">HR Insights</span>
           </div>
           <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-4">
             Practical HR Knowledge{" "}
-            <span className="gold-text">for Business Leaders</span>
+            <span className="gradient-text">for Business Leaders</span>
           </h1>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
             Stay ahead with expert HR insights, labour law updates, and best practices
@@ -118,7 +118,7 @@ export default function ResourcesPage() {
           </div>
 
           {/* CTA */}
-          <div className="glass-card p-10 text-center border border-gold/15">
+          <div className="glass-card p-10 text-center border border-primary/15">
             <h2 className="font-heading font-bold text-3xl text-white mb-4">
               Need Expert HR Advice?
             </h2>
@@ -126,7 +126,7 @@ export default function ResourcesPage() {
               Our team of HR professionals is ready to help you navigate complex HR challenges
               specific to your business.
             </p>
-            <Link href="/contact" className="btn-gold">
+            <Link href="/contact" className="btn-primary">
               Book a Consultation
               <ArrowRight size={16} />
             </Link>
