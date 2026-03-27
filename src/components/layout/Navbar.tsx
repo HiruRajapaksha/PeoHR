@@ -50,7 +50,7 @@ export default function Navbar() {
               alt="PeoHR Logo"
               width={160}
               height={35}
-              className="h-9 w-auto brightness-0 invert"
+              className="h-9 w-auto"
               priority
             />
           </Link>

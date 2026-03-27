@@ -60,7 +60,7 @@ export default function Footer() {
                 alt="PeoHR Logo"
                 width={140}
                 height={30}
-                className="h-8 w-auto brightness-0 invert opacity-80 hover:opacity-100 transition-opacity"
+                className="h-8 w-auto hover:scale-105 transition-all duration-300"
               />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
