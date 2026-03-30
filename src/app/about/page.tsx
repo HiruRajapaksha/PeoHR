@@ -68,9 +68,9 @@ export default function AboutPage() {
                 ))}
               </div>
 
-              <Link href="/contact" className="btn-primary inline-flex mt-4">
+              <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group mt-4">
                 Work With Us
-                <ArrowRight size={16} />
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
@@ -85,18 +85,6 @@ export default function AboutPage() {
                   className="object-cover w-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent" />
-              </div>
-              {/* Badge overlay */}
-              <div className="absolute -bottom-6 -left-6 glass-card p-4 border border-accent/20">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
-                    <span className="text-accent font-bold text-lg">10+</span>
-                  </div>
-                  <div>
-                    <div className="text-white text-sm font-semibold">Years of</div>
-                    <div className="text-accent text-sm">HR Excellence</div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -151,9 +139,9 @@ export default function AboutPage() {
           <p className="text-white/60 mb-8">
             Schedule a free consultation and let&apos;s discuss your HR challenges.
           </p>
-          <Link href="/contact" className="btn-primary">
+          <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
             Book a Consultation
-            <ArrowRight size={16} />
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
       </section>

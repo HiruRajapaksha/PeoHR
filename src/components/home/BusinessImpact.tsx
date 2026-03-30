@@ -110,9 +110,9 @@ export default function BusinessImpact() {
               When HR is done right, the entire organization benefits. Our structured
               approach delivers measurable improvements across your business.
             </p>
-            <Link href="/contact" className="btn-primary">
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
               Start Your Transformation
-              <ArrowRight size={16} />
+              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
 

@@ -26,30 +26,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
     ],
-    "/services/hr-outsourcing/page": [
+    "/privacy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/hr-outsourcing/page.js"
+      "static/chunks/app/privacy/page.js"
     ],
-    "/services/payroll/page": [
+    "/terms/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/services/payroll/page.js"
-    ],
-    "/services/virtual-hr/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/virtual-hr/page.js"
-    ],
-    "/services/policy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/policy/page.js"
-    ],
-    "/services/training/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/services/training/page.js"
+      "static/chunks/app/terms/page.js"
     ]
   }
 }

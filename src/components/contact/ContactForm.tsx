@@ -94,7 +94,7 @@ export default function ContactForm() {
           </label>
           <input
             type="tel"
-            placeholder="+94 77 XXX XXXX"
+            placeholder="+94 760 818 007"
             className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder:text-white/30 focus:outline-none focus:border-accent/50 transition-all duration-200"
           />
         </div>
@@ -148,7 +148,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={loading}
-        className="w-full btn-primary justify-center text-base py-4 disabled:opacity-60"
+        className="w-full btn-glass inline-flex items-center justify-center gap-2 text-base px-8 py-4 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-[1.02] active:scale-95 disabled:opacity-60"
       >
         {loading ? (
           <>
@@ -157,7 +157,7 @@ export default function ContactForm() {
           </>
         ) : (
           <>
-            <Send size={16} />
+            <Send size={18} />
             Request HR Consultation
           </>
         )}

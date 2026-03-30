@@ -44,17 +44,17 @@ export default function Footer() {
               Let&apos;s build a strong HR system for your business today.
             </p>
           </div>
-          <Link href="/contact" className="btn-gold shrink-0">
+          <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-7 py-3 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group shrink-0">
             Request a Proposal
-            <ArrowRight size={16} />
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>
 
         {/* Footer Grid */}
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
           {/* Brand column */}
-          <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex flex-col mb-4">
+          <div className="col-span-2 md:col-span-1 flex flex-col items-start">
+            <Link href="/" className="flex flex-col items-start mb-4">
               <Image
                 src="/images/Group 76.svg"
                 alt="PeoHR Logo"
@@ -68,18 +68,18 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <a
-                href="mailto:info@peohrsolutions.com"
+                href="mailto:peohrs@gmail.com"
                 className="flex items-center gap-2 text-white/50 hover:text-accent text-sm transition-colors"
               >
                 <Mail size={14} />
-                info@peohrsolutions.com
+                peohrs@gmail.com
               </a>
               <a
-                href="tel:+94XXXXXXXXX"
+                href="tel:+94760818007"
                 className="flex items-center gap-2 text-white/50 hover:text-accent text-sm transition-colors"
               >
                 <Phone size={14} />
-                +94 XXX XXX XXX
+                +94 760 818 007
               </a>
             </div>
             {/* Social Links */}

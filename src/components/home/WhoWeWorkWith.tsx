@@ -80,9 +80,9 @@ export default function WhoWeWorkWith() {
               PeoHR Solutions is purpose-built to support organizations that need professional
               HR management without the overhead of a full internal HR department.
             </p>
-            <Link href="/about" className="btn-secondary">
-              About Our Approach
-              <ArrowRight size={16} />
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
+              Start Your Transformation
+              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
 

@@ -13,9 +13,8 @@ const trustSignals = [
 ];
 
 const floatingStats = [
-  { value: "500+", label: "Clients Served" },
-  { value: "100%", label: "Compliance Rate" },
-  { value: "10+", label: "Years Experience" },
+  { value: "500+", label: "Businesses Supported" },
+  { value: "98%", label: "Client Satisfaction" },
 ];
 
 export default function HeroSection() {
@@ -71,8 +70,8 @@ export default function HeroSection() {
           {/* Left — Text */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/20 rounded-full">
-              <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 border border-accent/30 rounded-full neon-badge-green transition-all duration-500">
+              <span className="w-2 h-2 bg-accent rounded-full animate-pulse neon-green-dot" />
               <span className="text-accent text-sm font-medium tracking-wide">
                 Sri Lanka&apos;s Leading HR Partner
               </span>
@@ -97,13 +96,13 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="inline-flex items-center gap-2 text-base px-7 py-3.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-full border border-white/10 hover:border-primary/40 transition-all duration-300 shadow-lg hover:shadow-primary/10 hover:scale-105 active:scale-95">
+              <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-7 py-3.5 text-white font-semibold rounded-full hover:neon-badge-green transition-all duration-300 shadow-xl hover:scale-105 active:scale-95">
                 <Calendar size={18} />
                 Schedule a Consultation
               </Link>
-              <Link href="/services" className="btn-secondary text-base px-7 py-3.5">
+              <Link href="/services" className="btn-glass inline-flex items-center gap-2 text-base px-7 py-3.5 text-white/90 font-semibold rounded-full border-white/20 hover:border-white/40 transition-all duration-300 hover:scale-105 active:scale-95 group">
                 Explore Our Services
-                <ArrowRight size={18} />
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
@@ -123,7 +122,7 @@ export default function HeroSection() {
             {floatingStats.map((stat, i) => (
               <div
                 key={stat.label}
-                className="glass-card p-6 w-56 card-hover animate-float"
+                className="glass-card p-6 w-64 glass-card-hover animate-float"
                 style={{ animationDelay: `${i * 1.5}s` }}
               >
                 <div className="text-4xl font-heading font-bold gradient-text mb-1">

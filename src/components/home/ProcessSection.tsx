@@ -107,7 +107,7 @@ export default function ProcessSection() {
             return (
               <div
                 key={step.number}
-                className={`process-step relative opacity-0 translate-y-10 transition-all duration-600 glass-card p-7 text-center group hover:scale-[1.03] border border-white/5 ${step.borderColor} hover:border-opacity-60 transition-all duration-300`}
+                className={`process-step relative opacity-0 translate-y-10 transition-all duration-600 glass-card p-7 text-center group hover:scale-[1.03] border border-white/5 ${step.borderColor} hover:border-opacity-60 transition-all duration-500`}
               >
                 {/* Step number */}
                 <div className="text-[80px] font-heading font-bold text-white/5 absolute top-2 right-4 leading-none select-none">

@@ -29,13 +29,13 @@ export default function CTASection() {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Link href="/contact" className="btn-primary text-base px-8 py-4">
+          <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-4 text-white font-semibold rounded-full hover:border-accent/40 transiton-all duration-300 hover:scale-105 active:scale-95">
             <Calendar size={18} />
             Book a Consultation
           </Link>
           <a
-            href="mailto:info@peohrsolutions.com"
-            className="btn-secondary text-base px-8 py-4"
+            href="mailto:peohrs@gmail.com"
+            className="btn-glass inline-flex items-center gap-2 text-base px-8 py-4 text-white font-semibold rounded-full transition-all duration-300 hover:scale-105 active:scale-95"
           >
             <MessageCircle size={18} />
             Get HR Support

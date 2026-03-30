@@ -117,7 +117,7 @@ export default function ServicesPreview() {
               <Link
                 key={service.title}
                 href={service.href}
-                className={`service-card glass-card p-7 opacity-0 translate-y-8 transition-all duration-500 group cursor-pointer border border-white/5 ${service.borderColor} hover:shadow-xl`}
+                className={`service-card glass-card p-7 opacity-0 translate-y-8 transition-all duration-500 group cursor-pointer border border-white/5 ${service.borderColor} hover:border-accent/30 hover:shadow-accent/5`}
               >
                 {/* Icon */}
                 <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300`}>
@@ -146,7 +146,7 @@ export default function ServicesPreview() {
 
         {/* View All CTA */}
         <div className="text-center mt-12">
-          <Link href="/services" className="btn-secondary">
+          <Link href="/services" className="btn-glass inline-flex items-center gap-2 px-8 py-3 text-white font-semibold rounded-full hover:border-accent/40 transition-all duration-300 hover:scale-105 active:scale-95">
             View All Services
             <ArrowRight size={16} />
           </Link>

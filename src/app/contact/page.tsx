@@ -12,14 +12,14 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email Us",
-    value: "info@peohrsolutions.com",
-    href: "mailto:info@peohrsolutions.com",
+    value: "peohrs@gmail.com",
+    href: "mailto:peohrs@gmail.com",
   },
   {
     icon: Phone,
     label: "Call Us",
-    value: "+94 XXX XXX XXX",
-    href: "tel:+94XXXXXXXXX",
+    value: "+94 760 818 007",
+    href: "tel:+94760818007",
   },
   {
     icon: MapPin,
