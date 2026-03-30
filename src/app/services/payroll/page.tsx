@@ -27,12 +27,12 @@ export default function PayrollPage() {
         <div className="absolute left-0 top-20 w-96 h-96 bg-secondary/10 rounded-full blur-3xl" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-secondary/10 border border-secondary/20 rounded-full mb-4">
-              <span className="text-secondary-light text-sm font-medium">Payroll Management</span>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-accent/10 border border-accent/20 rounded-full mb-4">
+              <span className="text-accent text-sm font-medium">Payroll Management</span>
             </div>
             <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-4">
               Accurate Payroll.{" "}
-              <span className="bg-gradient-to-r from-secondary-light to-primary bg-clip-text text-transparent">
+              <span className="gradient-text">
                 Full Compliance.
               </span>
             </h1>
@@ -45,7 +45,7 @@ export default function PayrollPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
             {features.map((f) => (
               <div key={f} className="glass-card p-5 border border-white/5 hover:border-secondary/20 transition-all">
-                <CheckCircle size={16} className="text-secondary-light mb-3" />
+                <CheckCircle size={16} className="text-accent mb-3" />
                 <p className="text-white/70 text-sm">{f}</p>
               </div>
             ))}
@@ -59,8 +59,9 @@ export default function PayrollPage() {
               Our payroll specialists ensure your team is paid accurately and on time, every
               time — with full statutory compliance built in.
             </p>
-            <Link href="/contact" className="btn-primary">
-              Get Payroll Support <ArrowRight size={16} />
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
+              Get Payroll Support
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

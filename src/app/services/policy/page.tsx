@@ -32,7 +32,7 @@ export default function PolicyPage() {
             </div>
             <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-4">
               Clear Policies.{" "}
-              <span className="gold-text">Strong Foundations.</span>
+              <span className="gradient-text">Strong Foundations.</span>
             </h1>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
               We create comprehensive HR policies and employee handbooks that set clear
@@ -50,8 +50,9 @@ export default function PolicyPage() {
           </div>
 
           <div className="text-center">
-            <Link href="/contact" className="btn-primary">
-              Get Your Policy Framework <ArrowRight size={16} />
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
+              Get Your Policy Framework
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

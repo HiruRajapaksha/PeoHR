@@ -1,8 +1,9 @@
 {
   "/page": "app/page.js",
+  "/services/compliance/page": "app/services/compliance/page.js",
+  "/services/policy/page": "app/services/policy/page.js",
+  "/services/training/page": "app/services/training/page.js",
   "/contact/page": "app/contact/page.js",
-  "/about/page": "app/about/page.js",
-  "/terms/page": "app/terms/page.js",
   "/resources/page": "app/resources/page.js",
   "/privacy/page": "app/privacy/page.js"
 }

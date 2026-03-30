@@ -68,9 +68,9 @@ export default function HROutsourcingPage() {
           </div>
 
           <div className="text-center">
-            <Link href="/contact" className="btn-primary text-base px-8 py-4">
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-4 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
               Get a Free Consultation
-              <ArrowRight size={16} />
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

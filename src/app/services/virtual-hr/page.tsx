@@ -35,7 +35,7 @@ export default function VirtualHRPage() {
               <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/10 border border-primary/20 rounded-full mb-6">
                 <span className="text-primary text-sm font-medium">Virtual HR Assistant</span>
               </div>
-              <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-6 leading-tight">
+              <h1 className="font-heading font-bold text-5xl lg:text-7xl text-white mb-6 leading-tight">
                 Your HR Department —{" "}
                 <span className="gradient-text">
                   Without Hiring One
@@ -45,9 +45,9 @@ export default function VirtualHRPage() {
                 Our Virtual HR Assistant service provides ongoing HR support for businesses
                 that require professional HR management but do not have a full-time HR team.
               </p>
-              <Link href="/contact" className="btn-primary">
+              <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-4 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
                 Get Started Today
-                <ArrowRight size={16} />
+                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </div>
 
@@ -102,9 +102,9 @@ export default function VirtualHRPage() {
               Get the HR expertise your business needs — available when you need it, at a
               fraction of the cost of a full-time hire.
             </p>
-            <Link href="/contact" className="btn-primary">
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-10 py-4 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
               Request HR Support
-              <ArrowRight size={16} />
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

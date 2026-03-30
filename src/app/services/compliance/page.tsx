@@ -32,9 +32,7 @@ export default function CompliancePage() {
             </div>
             <h1 className="font-heading font-bold text-5xl lg:text-6xl text-white mb-4">
               Stay Compliant.{" "}
-              <span className="bg-gradient-to-r from-secondary-light to-primary bg-clip-text text-transparent">
-                Stay Protected.
-              </span>
+              <span className="gradient-text"> Stay Protected.</span>
             </h1>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
               Navigate Sri Lanka&apos;s labour laws with confidence. Our compliance experts
@@ -52,8 +50,9 @@ export default function CompliancePage() {
           </div>
 
           <div className="text-center">
-            <Link href="/contact" className="btn-primary">
-              Get Compliance Support <ArrowRight size={16} />
+            <Link href="/contact" className="btn-glass inline-flex items-center gap-2 text-base px-8 py-3.5 text-white font-semibold rounded-full hover:border-accent/40 shadow-xl transition-all duration-300 hover:scale-105 active:scale-95 group">
+              Get Compliance Support
+              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

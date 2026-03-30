@@ -100,7 +100,7 @@ export default function ServicesPreview() {
             <span className="text-accent text-sm font-medium">What We Offer</span>
           </div>
           <h2 className="font-heading font-bold text-4xl lg:text-5xl text-white mb-4">
-            Complete HR Support{" "}
+            Complete HR Solution{" "}
             <span className="gradient-text">Under One Roof</span>
           </h2>
           <p className="text-white/60 text-lg max-w-2xl mx-auto">
